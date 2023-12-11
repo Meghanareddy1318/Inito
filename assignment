@@ -1,0 +1,16 @@
+def main():
+    fs = FileSystem()
+
+    while True:
+        command = input("Enter command: ")
+        if command.lower() == "exit":
+            break
+        elif command.startswith("python script.py"):
+            # Parse and handle the save_state or load_state command
+            pass
+        else:
+            # Parse and execute regular commands
+            pass
+
+if __name__ == "__main__":
+    main()
